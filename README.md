@@ -1,6 +1,6 @@
 # grain-seo-mcp
 
-SEO analysis MCP server. Merged from [search-console-mcp](https://github.com/saurabhsharma2u/search-console-mcp) + [Suganthans-GSC-MCP](https://github.com/Suganthan-Mohanadasan/Suganthans-GSC-MCP), with custom enhancements.
+SEO analysis MCP server — Google Search Console, Bing Webmaster Tools, GA4 analytics, with custom Grain Analysis Tools.
 
 ## Grain Analysis Tools (new)
 
@@ -13,9 +13,9 @@ SEO analysis MCP server. Merged from [search-console-mcp](https://github.com/sau
 | `grain_topic_cluster` | Aggregate performance for URL path patterns (e.g. /blog/) |
 | `grain_content_recommendations` | Prioritized SEO actions: update / create / consolidate |
 
-## Original Tools (from search-console-mcp)
+## Platform Tools
 
-Google Search Console, Bing Webmaster Tools, Google Analytics 4 tools. See original repo for full list.
+Google Search Console, Bing Webmaster Tools, Google Analytics 4 tools. See `tools_list.md` for full list.
 
 ## Setup
 

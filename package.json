@@ -1,11 +1,11 @@
 {
   "name": "grain-seo-mcp",
   "version": "0.1.0",
-  "description": "SEO analysis MCP server — merged from search-console-mcp + Suganthans-GSC-MCP",
+  "description": "SEO analysis MCP server — Google Search Console, Bing Webmaster Tools, GA4 analytics with Grain Analysis Tools",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "grain-seo-mcp": "./dist/index.js"
+    "grain-seo": "./dist/index.js"
   },
   "files": [
     "dist",
@@ -28,7 +28,11 @@
     "google analytics",
     "ga4"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangluka/grain-seo-mcp.git"
+  },
+  "author": "zhangluka",
   "license": "MIT",
   "dependencies": {
     "@adobe/structured-data-validator": "^1.7.0",

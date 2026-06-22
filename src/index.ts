@@ -991,7 +991,7 @@ server.tool(
   }
 );
 
-// ===== GRAIN ANALYSIS TOOLS (ported from Suganthans-GSC-MCP) =====
+// ===== GRAIN ANALYSIS TOOLS =====
 
 server.tool(
   "grain_content_decay",
@@ -2888,7 +2888,7 @@ async function main() {
   const hasGoogle = accounts.some(a => a.engine === 'google') ||
     !!process.env.GOOGLE_APPLICATION_CREDENTIALS ||
     (!!process.env.GOOGLE_CLIENT_EMAIL && !!process.env.GOOGLE_PRIVATE_KEY) ||
-    existsSync(join(homedir(), '.search-console-mcp-tokens.enc')); // Legacy check
+    existsSync(join(homedir(), '.grain-seo-tokens.enc')); // Legacy check
 
   const hasBing = accounts.some(a => a.engine === 'bing') || !!process.env.BING_API_KEY;
   const hasGA4 = accounts.some(a => a.engine === 'ga4');
@@ -2904,17 +2904,17 @@ async function main() {
 
     if (!hasGoogle) {
       console.error(`${colors.red}✘${colors.reset} ${colors.bold}Google not configured.${colors.reset}`);
-      console.error(`${colors.blue}ℹ${colors.reset} ${colors.dim}Run:${colors.reset} ${colors.bold}${colors.cyan}search-console-mcp setup --engine=google${colors.reset}`);
+      console.error(`${colors.blue}ℹ${colors.reset} ${colors.dim}Run:${colors.reset} ${colors.bold}${colors.cyan}grain-seo setup --engine=google${colors.reset}`);
     }
 
     if (!hasGA4) {
       console.error(`${colors.red}✘${colors.reset} ${colors.bold}GA4 not configured.${colors.reset}`);
-      console.error(`${colors.blue}ℹ${colors.reset} ${colors.dim}Run:${colors.reset} ${colors.bold}${colors.cyan}search-console-mcp setup --engine=ga4${colors.reset}`);
+      console.error(`${colors.blue}ℹ${colors.reset} ${colors.dim}Run:${colors.reset} ${colors.bold}${colors.cyan}grain-seo setup --engine=ga4${colors.reset}`);
     }
 
     if (!hasBing) {
       console.error(`\n${colors.red}✘${colors.reset} ${colors.bold}Bing not configured.${colors.reset}`);
-      console.error(`${colors.blue}ℹ${colors.reset} ${colors.dim}Run:${colors.reset} ${colors.bold}${colors.cyan}search-console-mcp setup --engine=bing${colors.reset}`);
+      console.error(`${colors.blue}ℹ${colors.reset} ${colors.dim}Run:${colors.reset} ${colors.bold}${colors.cyan}grain-seo setup --engine=bing${colors.reset}`);
     }
 
     console.error(`\n${colors.dim}${'─'.repeat(64)}${colors.reset}\n`);

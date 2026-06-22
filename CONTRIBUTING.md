@@ -1,4 +1,4 @@
-# Contributing to Search Console MCP
+# Contributing to Grain SEO MCP
 
 Thanks for your interest in contributing.
 
@@ -60,7 +60,7 @@ PRs that introduce breaking changes should clearly explain:
 If you discover a security vulnerability:
 
 - Do not open a public issue
-- Email: saurabhsharma2u@gmail.com
+- Open a private issue on GitHub or contact via the repository
 - Provide detailed reproduction steps
 
 We take security seriously, especially regarding OAuth and token storage.
@@ -78,7 +78,7 @@ We take security seriously, especially regarding OAuth and token storage.
 
 ## Philosophy
 
-Search Console MCP is designed to:
+Grain SEO MCP is designed to:
 
 - Be local-first
 - Be secure by default

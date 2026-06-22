@@ -1,5 +1,5 @@
 /**
- * CTR vs Industry Benchmark — ported from Suganthans-GSC-MCP.
+ * CTR vs Industry Benchmark.
  *
  * Compares actual CTR per page against industry benchmarks by position.
  * Classifies each page as Above/At/Below/Significantly below benchmark.

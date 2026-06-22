@@ -1,6 +1,6 @@
 /**
  * Industry CTR benchmarks by SERP position.
- * Source: Suganthans-GSC-MCP (industry-derived averages).
+ * Industry-derived averages.
  */
 
 export const BENCHMARK_CTR = [

@@ -1,5 +1,5 @@
 /**
- * Verify Claim — Anti-hallucination mechanism ported from Suganthans-GSC-MCP.
+ * Verify Claim — Anti-hallucination mechanism.
  *
  * Re-queries GSC to verify a specific numeric claim before presenting it.
  * Tolerance: position ±0.5, other metrics ±5%.

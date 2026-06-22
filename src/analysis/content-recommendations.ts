@@ -1,5 +1,5 @@
 /**
- * Content Recommendations Engine — ported from Suganthans-GSC-MCP.
+ * Content Recommendations Engine.
  *
  * A meta-tool that cross-references quick wins, content gaps, and cannibalization
  * to generate prioritized optimization recommendations.

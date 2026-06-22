@@ -1,5 +1,5 @@
 /**
- * Content Decay Detection — ported from Suganthans-GSC-MCP.
+ * Content Decay Detection.
  *
  * Detects pages with consistent traffic decline across 3 consecutive 30-day windows.
  * Only flags pages where p3.clicks > p2.clicks > p1.clicks (strict monotonic decline)

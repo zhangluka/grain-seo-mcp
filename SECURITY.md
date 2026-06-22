@@ -3,7 +3,7 @@
 
 ## Supported Versions
 
-The latest published version of Search Console MCP is actively maintained and receives security updates.
+The latest published version of Grain SEO MCP is actively maintained and receives security updates.
 
 Older versions may not receive patches. Users are encouraged to upgrade to the latest release.
 
@@ -15,7 +15,7 @@ If you discover a security vulnerability, please do not open a public GitHub iss
 
 Instead, report it privately:
 
-Email: saurabhsharma2u@gmail.com
+Open a private issue on the GitHub repository.
 
 Please include:
 
@@ -30,7 +30,7 @@ You will receive acknowledgment within a reasonable timeframe.
 
 ## Security Model
 
-Search Console MCP is designed as a local-first CLI tool with the following security principles:
+Grain SEO MCP is designed as a local-first CLI tool with the following security principles:
 
 ### 1. OAuth-Based Authentication
 
@@ -67,7 +67,7 @@ Access tokens are short-lived and not permanently stored unless necessary.
 
 ### 3. No Central Data Collection
 
-Search Console MCP:
+Grain SEO MCP:
 
 - Does not operate a backend server
 - Does not transmit user data to the developer

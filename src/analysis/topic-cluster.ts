@@ -1,5 +1,5 @@
 /**
- * Topic Cluster Performance — ported from Suganthans-GSC-MCP.
+ * Topic Cluster Performance.
  *
  * Aggregates performance for all pages matching a URL path pattern.
  * Useful for analyzing /blog/, /guides/, /products/ etc. as a group.

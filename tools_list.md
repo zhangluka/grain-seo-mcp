@@ -1,4 +1,4 @@
-# Available Tools in search-console-mcp
+# Available Tools in grain-seo-mcp
 
 ## 📈 Analytics & Performance
 | Tool | Description |

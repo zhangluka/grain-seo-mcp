@@ -9,7 +9,7 @@ const SCOPES = [
   'https://www.googleapis.com/auth/webmasters.readonly',
   'https://www.googleapis.com/auth/userinfo.email'
 ];
-const SERVICE_NAME = 'io.github.saurabhsharma2u.search-console-mcp';
+const SERVICE_NAME = 'io.github.zhangluka.grain-seo-mcp';
 const DEFAULT_ACCOUNT = 'default';
 
 // Default Client ID for Desktop Flow (must be set via env vars or .env file)

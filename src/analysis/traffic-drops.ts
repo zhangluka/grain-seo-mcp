@@ -1,5 +1,5 @@
 /**
- * Traffic Drops Diagnosis — ported from Suganthans-GSC-MCP.
+ * Traffic Drops Diagnosis.
  *
  * Compares current vs prior period and diagnoses WHY traffic dropped:
  * - Ranking loss (position moved >2)
