@@ -448,7 +448,7 @@ async function setupServiceAccount() {
 
     printStep(4, 'Configure your MCP client');
     showMcpConfigSnippet();
-    console.log('\n🎉 Setup complete! You can now use Search Console MCP.\n');
+    console.log('\n🎉 Setup complete! You can now use Grain SEO MCP.\n');
 
     await supportProject();
 }
@@ -526,7 +526,7 @@ async function setupBing() {
     printStep(2, 'Configure your MCP client');
     showMcpConfigSnippet();
 
-    console.log('\n🎉 Setup complete! You can now use Search Console MCP.\n');
+    console.log('\n🎉 Setup complete! You can now use Grain SEO MCP.\n');
 
     await supportProject();
 }

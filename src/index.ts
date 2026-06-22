@@ -2927,7 +2927,7 @@ async function main() {
   const ga4Status = hasGA4 ? `${colors.green}✔ GA4${colors.reset}` : `${colors.red}✘ GA4${colors.reset}`;
   const bingStatus = hasBing ? `${colors.green}✔ Bing${colors.reset}` : `${colors.red}✘ Bing${colors.reset}`;
 
-  console.error(`Search Console MCP running on stdio [ ${googleStatus} | ${ga4Status} | ${bingStatus} ]`);
+  console.error(`Grain SEO MCP running on stdio [ ${googleStatus} | ${ga4Status} | ${bingStatus} ]`);
 }
 
 main().catch((error) => {

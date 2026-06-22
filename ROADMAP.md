@@ -1,4 +1,4 @@
-# Google Search Console MCP Server - Roadmap
+# Grain SEO MCP - Roadmap
 
 This document outlines the planned features and improvements for this project.
 

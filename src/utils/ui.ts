@@ -1,5 +1,5 @@
 /**
- * Shared CLI UI utilities for Search Console MCP
+ * Shared CLI UI utilities for Grain SEO MCP
  */
 
 export const colors = {
@@ -15,7 +15,7 @@ export const colors = {
 };
 
 export function printBoxHeader(subLabel: string, color = colors.blue) {
-    const title = "Search Console MCP";
+    const title = "Grain SEO MCP";
     const totalWidth = 62;
     const content = `${title} | ${subLabel}`;
 
