@@ -2,6 +2,8 @@
 
 SEO analysis MCP server — Google Search Console, Bing Webmaster Tools, GA4 analytics, with custom Grain Analysis Tools.
 
+> English | [简体中文](./README_zh-CN.md)
+
 ## Grain Analysis Tools (new)
 
 | Tool | What it does |
